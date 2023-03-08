@@ -1,0 +1,50 @@
+import random
+responce = "y"
+while responce == "y":
+    responce = input("Press y to roll a dice or n to exit")
+    num = random.randint(1,6)
+    if num == 1:
+        print("[-----]")
+        print("[     ]")
+        print("[  0  ]")
+        print("[     ]")
+        print("[-----]")
+    if num == 2:
+        print("[-----]")
+        print("[     ]")
+        print("[ 0   ]")
+        print("[   0 ]")
+        print("[     ]")
+        print("[-----]")
+    if num == 3:
+        print("[-----]")
+        print("[     ]")
+        print("[ 0   ]")
+        print("[   0 ]")
+        print("[     0 ]")
+        print("[     ]")
+        print("[-----]")
+    if num == 4:
+        print("[-----]")
+        print("[     ]")
+        print("[ 0  0 ]")
+        print("[ 0  0 ]")
+        print("[     ]")
+        print("[-----]")
+    if num == 5:
+        print("[-----]")
+        print("[     ]")
+        print("[ 0  0 ]")
+        print("[   0  ]")
+        print("[ 0  0 ]")
+        print("[     ]")
+        print("[-----]")
+    if num == 6:
+        print("[-----]")
+        print("[     ]")
+        print("[ 0  0 ]")
+        print("[ 0  0 ]")
+        print("[ 0  0 ]")
+        print("[     ]")
+        print("[-----]")
+    print("\n")    
